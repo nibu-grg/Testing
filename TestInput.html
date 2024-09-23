@@ -3,12 +3,16 @@
         <script>
             let test = ()=>{
                 inputText = document.getElementById("userInput").value;
-                alert(inputText);
+                if(inputText>15)
+                {
+                    alert("Weight is exceeded");
+                }
+                alert("Correct Weight");
             }
         </script>
     </head>
     <body>
-        <input type="text" id="userInput">
+        <input type="number" id="userInput">
         <button onclick="test()">Click Here</button>
     </body>
 </html>
