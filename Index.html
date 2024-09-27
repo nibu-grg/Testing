@@ -2,8 +2,26 @@
     <head>
         <script src="Script.js"></script>
         <script src="euler.js"></script>
+        <script>
+            let sum=()=>
+        {
+            num1 = document.getElementById("num1");
+            num2 = document.getAnimations("num2");
+            s=0;
+            for(i=1;i<1000;i++)
+            {
+                if(i%num1==0 || i%num2==0)
+                    s+=i;
+            }
+            alert("Sum = "+s);
+        }
+        </script>
     </head>
     <body>
-        Hello
+        <label for="num1">Enter First Number</label>
+        <input type="number" id="num1" for="num1">
+        <label for="num2">Enter Second Number</label>
+        <input type="number" id="num2" for="num2">
+        <button onclick="sum()">Sum</button>
     </body>
 </html>
