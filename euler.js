@@ -16,3 +16,8 @@ function GetValues()
     limit = document.getElementById("limit").value;
     sum(num1,num2,limit);
 }
+
+function Hide()
+{
+    document.getElementById("div1").style.display("hidden");
+}
