@@ -21,3 +21,7 @@ function Hide()
 {
     document.getElementById("div1").style.display="none";
 }
+function Show()
+{
+    document.getElementById("div1").style.display="block";
+}
