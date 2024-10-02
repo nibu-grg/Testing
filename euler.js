@@ -36,3 +36,12 @@ function Show()
     document.getElementById("label2").style.display="block";
     document.getElementById("label3").style.display="block";
 }
+
+function slice()
+{
+    text = document.getElementById("slice1").value;
+    start = document.getElementById("start").value;
+    end = document.getElementById("end").value;
+    result = text.slice(start,end);
+    alert("Result = "+result);
+}
