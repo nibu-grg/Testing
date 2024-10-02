@@ -18,7 +18,7 @@ function GetValues()
     document.getElementById("num1").style.display="none";
     document.getElementById("num2").style.display="none";
     document.getElementById("limit").style.display="none";
-    document.getElementById("sum")..style.display="none";
+    document.getElementById("sum").style.display="none";
 }
 
 
