@@ -27,5 +27,5 @@ function Show()
     document.getElementById("num1").style.display="block";
     document.getElementById("num2").style.display="block";
     document.getElementById("limit").style.display="block";
-    document.getElementById("sum")..style.display="block";
+    document.getElementById("sum").style.display="block";
 }
