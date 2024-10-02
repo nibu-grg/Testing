@@ -19,5 +19,5 @@ function GetValues()
 
 function Hide()
 {
-    document.getElementById("div1").style.display("hidden");
+    document.getElementById("div1").style.display="hidden";
 }
