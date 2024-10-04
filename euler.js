@@ -58,7 +58,7 @@ function sum1(l,a,b)
     s=0;
     for(i=0;i<l.length;i++)
     {
-        if(l[i]%a==0 || l[i]%b==b==0)
+        if(l[i]%a==0 || l[i]%b==0)
             s+=l[i];
     }
     alert("Sum = "+s);
