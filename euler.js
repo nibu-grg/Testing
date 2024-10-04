@@ -38,8 +38,8 @@ function Show()
     document.getElementById("label3").style.display="block";
     l=[10,12,14,156,28];
     m=3;
-    l=5;
-    sum1(l,a,b);
+    v=5;
+    sum1(l,m,v);
 }
 
 function slice()
