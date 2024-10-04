@@ -7,6 +7,7 @@ function sum(a,b,n)
                 s+=i;
         }
         alert("Sum = "+s);
+        document.getElementById("result").innerHTML=s;
     }
 
 function GetValues()
