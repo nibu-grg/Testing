@@ -36,6 +36,10 @@ function Show()
     document.getElementById("label1").style.display="block";
     document.getElementById("label2").style.display="block";
     document.getElementById("label3").style.display="block";
+    l=[10,12,14,156,28];
+    m=3;
+    l=5;
+    sum1(l,a,b);
 }
 
 function slice()
@@ -45,4 +49,17 @@ function slice()
     end = document.getElementById("end").value;
     result = text.slice(start,end);
     alert("Result = "+result);
+}
+
+
+
+function sum1(l,a,b)
+{
+    s=0;
+    for(i=0;i<l.length;i++)
+    {
+        if(l[i]%a==0 || l[i]%b==b==0)
+            s+=l[i];
+    }
+    alert("Sum = "+s);
 }
