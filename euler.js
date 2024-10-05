@@ -36,10 +36,16 @@ function Show()
     document.getElementById("label1").style.display="block";
     document.getElementById("label2").style.display="block";
     document.getElementById("label3").style.display="block";
+   
+   
     l=[10,12,14,156,28];
     m=3;
     v=5;
     sum1(l,m,v);
+
+    k=[6,3];
+    j=[2,5,6,12,15];
+    sum2(k,j)
 }
 
 function slice()
@@ -60,6 +66,20 @@ function sum1(l,a,b)
     {
         if(l[i]%a==0 || l[i]%b==0)
             s+=l[i];
+    }
+    alert("Sum = "+s);
+}
+
+function sum2(k,j)
+{
+    s=0;
+    for(i=0;i<k.length;i++)
+    {
+        for(h=0;h<j.length;h++)
+        {
+            if(j[h]%k[i]==0 || j[h]%k[i]==0)
+                s+=j[h];
+        }
     }
     alert("Sum = "+s);
 }
