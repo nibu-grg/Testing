@@ -27,6 +27,7 @@ function GetValues()
 }
 
 
+
 function Show()
 {
     document.getElementById("num1").style.display="block";
