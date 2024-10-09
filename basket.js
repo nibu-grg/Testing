@@ -15,7 +15,7 @@ function TotalPrice(basket,price)
     sum = 0;
     for(const product in basket)
     {
-        if(basket(product)&&price(product))
+        if(basket.hasOwnProperty(product)&&price.hasOwnProperty(product))
         {
             sum+=basket[product]*price[product];
         }
