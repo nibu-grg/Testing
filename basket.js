@@ -20,11 +20,14 @@ function TotalPrice(basket,price)
             sum+=basket[product]*price[product];
         }
     }
+    
     alert("Basket Sum = "+sum);
+    return sum;
 }
 
 function sum()
 {
-    TotalPrice(basket,price);
+    sum = TotalPrice(basket,price);
+    alert("Basket Sum = "+sum);
 }
 
