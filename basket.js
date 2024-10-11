@@ -1,14 +1,3 @@
-let basket = {
-    pen : 5,
-    book : 7,
-    paper : 20
-};
-
-let price = {
-    pen : 10,
-    book : 20,
-    //paper : 1
-};
 
 function TotalPrice(basket,price)
 {
@@ -25,11 +14,5 @@ function TotalPrice(basket,price)
     return sum;
 }
 
-alert(TotalPrice({'Milk':3,'Bread':2},{'Milk':2.3,'Bread':.90}))
-
-function sum()
-{
-    sum = TotalPrice(basket,price);
-    alert("Basket Sum = "+sum);
-}
+alert(TotalPrice({'Paper':3,'Pen':2,'Book':4},{'Paper':2.3,'Pen':.90}))
 
