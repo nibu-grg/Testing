@@ -13,9 +13,9 @@ const price = {
 function TotalPrice(basket,price)
 {
     sum = 0;
-    for(const product in basket)
+    for(let product in basket)
     {
-        if(basket.hasOwnProperty(product)&&price.hasOwnProperty(product))
+        if(price[product]!=undefined)
         {
             sum+=basket[product]*price[product];
         }
