@@ -7,7 +7,7 @@ const basket = {
 const price = {
     pen : 10,
     book : 20,
-    paper : 1
+    //paper : 1
 };
 
 function TotalPrice(basket,price)
